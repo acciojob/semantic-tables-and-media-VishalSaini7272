@@ -1,60 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Semantic Table and Media</title>
+  <meta charset="utf-8">
+  <title>Semantic Table and Media</title>
 </head>
 <body>
 
-<!-- Semantic Table -->
-<table border="1">
+  <!-- Semantic table -->
+  <table>
     <thead>
-        <tr>
-            <th>Roll Number</th>
-            <th>Name</th>
-        </tr>
+      <tr>
+        <th>Roll numbers</th>
+        <th>Names</th>
+      </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>1</td>
-            <td>Alice</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Bob</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Charlie</td>
-        </tr>
+      <tr>
+        <td>1</td>
+        <td>Alice</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Bob</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Charlie</td>
+      </tr>
     </tbody>
-</table>
+  </table>
 
-<!-- Heading between table and ordered list -->
-<h2>List of medias</h2>
+  <!-- exact heading placed between table and list -->
+  <h2>List of medias</h2>
 
-<!-- Ordered List -->
-<ol>
-    <!-- First item: Image -->
+  <!-- Ordered list with exactly three items in the required order -->
+  <ol>
     <li>
-        <img src="https://picsum.photos/id/123/200/300" alt="Sample Image">
+      <img src="https://picsum.photos/id/123/200/300" alt="Picsum image">
     </li>
-
-    <!-- Second item: Video -->
     <li>
-        <video controls width="320">
-            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+      <video controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+      </video>
     </li>
-
-    <!-- Third item: Audio -->
     <li>
-        <audio controls>
-            <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-            Your browser does not support the audio element.
-        </audio>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+      </audio>
     </li>
-</ol>
+  </ol>
 
 </body>
 </html>
